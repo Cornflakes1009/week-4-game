@@ -1,0 +1,43 @@
+body{ 
+    background-image: url("../images/background-image.png");
+    margin: auto;
+    color: white;
+}
+h1 {
+    background-color: orange;
+    padding: 20px 0;
+    text-align: center;
+}
+.instructions {
+    background-color: rgb(241, 219, 200);
+    color: rgb(66, 173, 66);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.numberToMatch {
+    width: 250px;
+    height: 130px;
+    background-color: lightgreen;
+}
+.numberToMatch {
+    font-size: 30px;
+}
+.stats {
+    background-color: rgb(67, 231, 231);
+    line-height: 1.5;
+}
+.gem {
+    background-color: white;
+  
+    text-align: center;
+}
+.scoreBoxBanner {
+    background-color: rgb(76, 161, 118);
+    color: white;
+}
+.scoreBox {
+    height: 100px;
+    font-size: 30px;
+
+}
