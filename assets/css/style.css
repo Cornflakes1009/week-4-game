@@ -8,6 +8,9 @@ h1 {
     padding: 20px 0;
     text-align: center;
 }
+p {
+    margin-bottom: 15px;
+}
 .instructions {
     background-color: rgb(241, 219, 200);
     color: rgb(66, 173, 66);
