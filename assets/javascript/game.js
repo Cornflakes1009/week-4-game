@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
     function reset() {
-        $('.score').html(totalScore);
         
+       
         totalScore = 0;
         numberToAchieve = Math.floor(Math.random() * (50 - 25) + 25);
         $('.numberToMatch').html(numberToAchieve);
@@ -11,7 +11,7 @@ $(document).ready(function () {
         gem2Value = randomNumber();
         gem3Value = randomNumber();
         gem4Value = randomNumber();
-        
+        $('.score').html(totalScore);
     }
     
     // function to set random numbers between 1-9 to assign to each gem
@@ -40,13 +40,13 @@ $(document).ready(function () {
             wins++;
             $('#win-or-lose').html("You Win!!");
             $('#wins').html('Wins: ' + wins);
-            alert("You Win!");
+            //alert("You Win!");
             setTimeout(reset(), 10000);
         } else if (totalScore > numberToAchieve) {
             losses++;
             $('#win-or-lose').html("LOSER!!");
             $('#losses').html('Losses: ' + losses);
-            alert("You Went Over!"); 
+            //alert("You Went Over!"); 
             setTimeout(reset(), 10000);
         } else {
             console.log('keep going!');
